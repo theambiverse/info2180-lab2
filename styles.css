@@ -1,8 +1,7 @@
-
 header>img{
     border-radius: 50%;
-    width: 100px;
-    height: 110px;
+    width: 130px;
+    height: 140px;
  }
  h1{
      font-size: 36px;
@@ -28,6 +27,7 @@ header>img{
     grid-template-rows:1fr 1fr 1fr;
     grid-gap: 2%;
     
+    
  }
 
 .header{
@@ -40,13 +40,13 @@ header>img{
     text-align: center;
 
 }
-.flex{
+.flex>.item{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.headerimg{
-    
-}
+
 
 
 
@@ -55,7 +55,7 @@ header>img{
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    /*background-color:blue ;*/
+    padding-left: 6%;
 }
 
 .aside{
@@ -64,7 +64,7 @@ header>img{
     grid-row-start: 2;
     grid-row-end: 4;
     padding-top: 10%;
-    /*background-color:brown ;*/
+    padding-right: 6%;
 }
 
 .footer{
@@ -72,9 +72,10 @@ header>img{
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    text-align: center;
+    text-align: justify;
     background-color:#2C5282 ;
     color: #FFFFFF;
+    padding-left: 8%;
     
     
 }
@@ -106,16 +107,10 @@ article{
     padding: 3%;
 }
 
- /*footer{
-     font-size: 12px;
- }*/
- /*aside{
-     font-size: 15px;
-     font-style: italic;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    }*/
+ 
  ul{
      list-style-type: none;
+     padding-left: 0;
  }
  
  font{
