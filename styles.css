@@ -1,8 +1,4 @@
-header>img{
-    border-radius: 50%;
-    width: 130px;
-    height: 140px;
- }
+
  h1{
      font-size: 36px;
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -37,16 +33,34 @@ header>img{
     grid-row-end: 2;
     background-color:#63B3ED ;
     color:#FFFFFF;
-    text-align: center;
+
 
 }
-.flex>.item{
+
+
+.flex{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
+    
+    
+    
+    
 }
-
-
+.flex>div>img{
+    border-radius: 50%;
+    width: 130px;
+    height: 140px;
+   
+}
+ 
+.flex>div>h1{
+    
+    background-color: purple;
+ }
+.flex>div>p{
+    background-color: purple;
+}
 
 
 
