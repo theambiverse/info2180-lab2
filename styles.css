@@ -33,35 +33,31 @@
     grid-row-end: 2;
     background-color:#63B3ED ;
     color:#FFFFFF;
-
+    
 
 }
 
-
-.flex{
+header{
+    
     display: flex;
-    align-items:center;
     justify-content: center;
-    
-    
-    
+    align-items:center;
     
 }
-.flex>div>img{
+.flex{
+    text-align: center;
+    padding: 10%;
+
+}
+
+.flex>img{
     border-radius: 50%;
     width: 130px;
     height: 140px;
+    
    
 }
  
-.flex>div>h1{
-    
-    background-color: purple;
- }
-.flex>div>p{
-    background-color: purple;
-}
-
 
 
 .main{
@@ -78,7 +74,7 @@
     grid-row-start: 2;
     grid-row-end: 4;
     padding-top: 10%;
-    padding-right: 6%;
+    padding-right: 8%;
 }
 
 .footer{
